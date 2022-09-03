@@ -6,7 +6,8 @@ I have provided brief description of types of command messages, based on command
 
 ### Informational Messages
 
-Informational message provides the user the status of the executed configuration and command description. For configuration status, CLI automatically returns a status message. For help information, engineers develop a cmdhelp[1] command, which provides the functional information of a command to the user. I have used cmdhelp for reference, but engineers in different organizations use different terms to create the help command.
+Informational message provides the user the status of the executed configuration and command description. For configuration status, CLI automatically returns a status message. For help information, engineers develop a cmdhelp[^1] command, which provides the functional information of a command to the user. I have used cmdhelp for reference, but engineers in different organizations use different terms to create the help command.
+[^1]: The cmdhelp command used here is a dummy command.
 
 The following examples show how Information Messages appear in CLI.
 
@@ -23,7 +24,7 @@ Device@NE$
 ```
 ##### Example 2: Deleting File
 
-Informational messages are generally not documented by technical writers in the reference guides or user manuals as separate sections. But technical writers can use the informational messages to author descriptions for CLI commands.
+Informational messages are **generally not documented** by technical writers in the reference guides or user manuals as separate sections. But technical writers can use the informational messages to author descriptions for CLI commands.
 
 ### Warning Messages
 
@@ -36,7 +37,7 @@ The changes made are irreversible. Are you sure you want to continue? (y/n)
 ```
 ##### Configuration Change Warning Message
 
-Warning messages are generally not documented by technical writers in the reference guides or user manuals as separate sections.
+Warning messages are **generally not documented by technical writers** in the reference guides or user manuals as separate sections.
 
 ### Error Messages
 
@@ -74,6 +75,6 @@ Unlike UX writing, technical writers cannot develop error messages in CLI. Engin
 |Incomplete command structure|Command structure or syntax entered by user is not complete|Enter the complete command structure|
 |Interface invalid|Interface configured by the user is invalid	|Check for valid interfaces. Refer interface table on how to configure interfaces.|
 
-The table format or the header description in the example is not the only correct format to document CLI error messages. Table format is suited for compact documentation of error messages. The writers can author each error message as an individual section or use the Definition List table to document the messages. However, technical writers are free to use any format that helps the user to understand the error.
+The table format or the header description in the example is **not the only correct format** to document CLI error messages. Table format is suited for compact documentation of error messages. The writers can author each error message **as an individual section** or use the **Definition List table** to document the messages. However, technical writers are **free to use any format** that helps the user to understand the error.
 
-Error messages are the only messages documented by technical writers in the reference guides and user manuals.
+Error messages are the only messages **documented by technical writers** in the reference guides and user manuals.
