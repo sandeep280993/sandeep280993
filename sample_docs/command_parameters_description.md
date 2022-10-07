@@ -4,9 +4,7 @@ Command Parameter Description is another important section that technical writer
 
 Command Parameter Description provides information about the CLI command’s sub-operations, arguments and identifier values.
 
-Command Parameter Description provides information about the CLI command’s sub-operations, arguments and identifier values.
-
-1. Definition List Format
+### 1. Definition List Format
 
 The following example shows the Description formats for the configure command syntax.
 
@@ -23,7 +21,7 @@ The following example shows the Definition List table format:
 | \<ip-address\> |An IP address to route data to the NE|
 | \<priority-value\> |Preference value of the shelf|
 
-2. Table Format
+### 2. Table Format
 
 The following examples show the table formats:
 
@@ -34,17 +32,16 @@ The most commonly used formats for the command tables are two-column and three-c
 |\<ip-address\>|An IP address to route data to the NE|
 |\<priority-value\>|Preference value of the shelf|
 
-Two-Column Table
-
+#### Two-Column Table
 
 |PARAMETER|VALUE|DESCRIPTION|
 |----------|-----|----------|
 |\<ip-address\>| \<IPv4 \| IPv6\>| An IP address to route data to the NE|
 |\<priority-value\>| \<high \| low\>| Preference value of the shelf|
 
-Three-Column Table
+#### Three-Column Table
 
-3. Descriptive Format
+### 3. Descriptive Format
 
 The following example shows command parameters in descriptive format:
 
